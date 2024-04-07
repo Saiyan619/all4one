@@ -1,0 +1,114 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 50px;
+}
+
+ul{
+    color: white;
+    display: flex;
+    gap: 40px;
+
+}
+
+li{
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.nav-btn{
+    background-color: #351a88 ;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    color: white;
+}
+
+.responsive-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 400px;
+}
+
+.hamburger{
+    display: none;
+}
+
+
+/* ----------------MEDIA QUERIES------------------- */
+
+@media screen and (max-width: 950px){
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .responsive-nav{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 30px;
+        position: absolute;
+        top:2%;
+        left: 2%;
+        background-color: burlywood;
+        width: 100%;
+        height: 0vw;
+        padding: 0px;
+        border-radius: 5px;
+        z-index: 5;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 60%, rgba(0, 0, 0, 0.375) 100%);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+        overflow: hidden;
+        transition: .5s;
+    }
+
+     .responsive-nav_active{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 30px;
+        position: absolute;
+        top:2%;
+        left: 2%;
+        background-color: burlywood;
+        width: 100%;
+        height: 90vw;
+        padding: 10px;
+        border-radius: 5px;
+        z-index: 5;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 60%, rgba(0, 0, 0, 0.375) 100%);
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.083);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+        transition: .5s;
+        overflow: hidden;
+     }
+
+    ul{
+        color: white;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .hamburger{
+        display: block;
+        z-index: 500;
+        font-size: 40px;
+    }
+}

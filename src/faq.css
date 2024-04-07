@@ -1,0 +1,58 @@
+.main-accordion-container{
+    margin-top: 100px;
+    color: white;
+    
+}
+.faq-title{
+    text-transform: capitalize;
+    font-size: 40px;
+    display: grid;
+    place-items: center;
+}
+
+.accordion-container{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 5px;
+   margin-top: 50px;
+}
+.accordion{
+    width: 60%;
+    color: white !important;
+    background-color: #0d1214bf !important;
+    border: 2px solid blueviolet;
+    border-radius: 10px !important;
+}
+.accordion span{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.answer{
+    background-color: black;
+    border-radius: 22px;
+}
+
+
+/* ----------------MEDIA QUERIES------------------- */
+
+@media screen and (max-width: 800px){
+    .accordion{
+        width: 100%;
+        color: white !important;
+        background-color: #0d1214bf !important;
+        border: 2px solid blueviolet;
+        border-radius: 10px !important;
+    }
+
+    .accordion span{
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+    
+    .answer{
+        background-color: black;
+        border-radius: 16px;
+    }
+}
