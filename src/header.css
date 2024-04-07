@@ -61,12 +61,29 @@ h1{
     outline: none;
     padding: 10px 15px;
     color: white;
-}.hero-btns-2{
+    cursor: pointer;
+}.hero-btns-1:hover{
+    background-color: #380fb6 ;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+}
+.hero-btns-2{
     border: 1px solid  #351a88;
     outline: none;
     padding: 10px 15px;
     background-color: transparent;
     color: white;
+}.hero-btns-2:hover{
+    border: 1px solid  #351a88;
+    background-color: #380fb6 !important;
+    outline: none;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
 }
 
 
