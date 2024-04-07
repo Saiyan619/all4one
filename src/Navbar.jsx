@@ -24,7 +24,8 @@ const Navbar = () => {
                   <li>FAQ</li>
               </ul>
 
-          <button className='nav-btn'>Buy Now</button>
+          {/* <button className='nav-btn'>Buy Now</button> */}
+          <button className='gradient-border-button'>Buy Now</button>
         </div>
 
         <div onClick={toggle} className='hamburger'>
