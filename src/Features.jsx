@@ -3,7 +3,7 @@ import './features.css'
 
 const Features = () => {
   return (
-    <div className='main-features-container'>
+    <div id='about' className='main-features-container'>
           <div className='features-title'>
               <h2>About All4One</h2>
               <p>By integrating AI tools within a user-friendly platform built on blockchain technology, All4One

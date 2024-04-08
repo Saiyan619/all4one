@@ -9,7 +9,7 @@ import { FaArrowUp, FaArrowDown } from 'react-icons/fa'; // Import arrow up and 
 
 export default function AccordionExpandIcon() {
   return (
-      <div className='main-accordion-container'>
+      <div id='FAQ' className='main-accordion-container'>
           <span className='faq-title'>frequently asked questions</span>
           <div className='accordion-container'>
       <Accordion className='accordion'>

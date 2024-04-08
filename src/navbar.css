@@ -18,6 +18,12 @@ ul{
 li{
     list-style: none;
     text-transform: capitalize;
+    cursor: pointer;
+}li:hover{
+    list-style: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: rgb(185, 183, 183);
 }
 
 /* .nav-btn{

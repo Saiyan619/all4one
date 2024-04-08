@@ -5,7 +5,7 @@ const Roadmap = () => {
 
     return (
         <div>
-            <div className='stepper-container'>
+            <div id='roadmap' className='stepper-container'>
                 <div className='sub-stepper-container-1'>
                     <span>Our Roadmap</span>
                 </div>
