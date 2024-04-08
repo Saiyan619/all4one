@@ -1,5 +1,7 @@
 import React from 'react'
 import './statistics.css'
+import { motion } from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
 
 const Statistics = () => {
   return (
