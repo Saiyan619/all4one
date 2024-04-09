@@ -1,11 +1,22 @@
+
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+border-radius: 5px;
+border: 1px solid rgba(255, 255, 255, 0.083);
+backdrop-filter: blur(10px);
+z-index: 1000;
+   
 }
+
 
 .logo{
     width: 50px;
+    cursor: pointer;
 }
 
 ul{
@@ -26,13 +37,6 @@ li{
     color: rgb(185, 183, 183);
 }
 
-/* .nav-btn{
-    background-color: #351a88 ;
-    border: none;
-    outline: none;
-    padding: 10px 15px;
-    color: white;
-} */
 
 .responsive-nav{
     display: flex;

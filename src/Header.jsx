@@ -10,9 +10,9 @@ const Header = () => {
     threshold:0.2
   })
   return (
-    <div className='main-header'>
-          <Navbar />
-          
+    <div> <Navbar />
+    <div id='header' className='main-header'>
+         
           <div className='hero-content'>
               <div className='hero-content-left'>
           {/* <h1>Explore the largest <span>NFT</span> Marketplaces</h1> */}
@@ -52,7 +52,8 @@ and value exchange </p>
                   <img className='hero-image' src="./Screenshot_2024-04-06_at_19-10-05_All4One_-_Whitepaper-1-1.pdf-removebg-preview.png" alt="hero-pic" />
               </motion.div>
           </div>
-    </div>
+      </div>
+      </div>
   )
 }
 

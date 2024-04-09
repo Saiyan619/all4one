@@ -11,7 +11,10 @@ const Navbar = () => {
     settoggleNav(!toggleNav)
   }
 
-  const scrollToTokenomics = () => {
+  const backToTop = () => {
+    const teamSection = document.getElementById('header');
+    teamSection.scrollIntoView({ behavior: 'smooth' });
+  };const scrollToTokenomics = () => {
     const teamSection = document.getElementById('tokenomics');
     teamSection.scrollIntoView({ behavior: 'smooth' });
   }; const scrollToAbout = () => {
@@ -25,9 +28,9 @@ const Navbar = () => {
     serviceSection.scrollIntoView({ behavior: 'smooth' });
   };
   return (
-    <div>
+    <div className='main-nav-container'>
           <nav>
-        <div><img className='logo' src="./Ellipse 2.png" alt="logo" /></div>
+        <div><img onClick={backToTop} className='logo' src="./Ellipse 2.png" alt="logo" /></div>
               
         <div className={toggleNav ?  'responsive-nav' : 'responsive-nav_active'}>
         <ul>
