@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer'
 const Statistics = () => {
     const [ref, InView] = useInView({
         triggerOnce: false,
-        threshold:0.1
+        threshold:0.0
       })
   return (
       <div id='tokenomics' className='main-statistics-container'>

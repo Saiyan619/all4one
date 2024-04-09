@@ -5,8 +5,8 @@ import { useInView } from 'react-intersection-observer'
 
 const WhatWeDo = () => {
     const [ref, InView] = useInView({
-        triggerOnce: false,
-        threshold:0.1
+        triggerOnce: true,
+        threshold:0.005
       })
   return (
       <div className='what-we-do_list-main-container'>

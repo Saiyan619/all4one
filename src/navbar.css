@@ -43,6 +43,8 @@ li{
     align-items: center;
     justify-content: space-between;
     gap: 400px;
+            z-index: 500000;
+
 }
 
 .hamburger{
@@ -57,7 +59,14 @@ li{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 20px;
+        position: fixed;
+        width: 100%;
+        padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.083);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+       
     }
     .responsive-nav{
         text-align: center;
@@ -73,7 +82,7 @@ li{
         height: 0vw;
         padding: 0px;
         border-radius: 5px;
-        z-index: 5;
+        z-index: 500000;
         background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 60%, rgba(0, 0, 0, 0.375) 100%);
         backdrop-filter: blur(10px);
         box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
@@ -90,18 +99,18 @@ li{
         flex-direction: column;
         gap: 0px;
         position: absolute;
-        top:2%;
+        top:30%;
         left: 2%;
         width: 100%;
         height: 90vw;
         padding: 10px;
+        z-index: 500000;
+        background-color: rgba(62, 14, 107, 0.871);
+        /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 60%, rgba(0, 0, 0, 0.375) 100%); */
         border-radius: 5px;
-        z-index: 5;
-        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 60%, rgba(0, 0, 0, 0.375) 100%);
-        border-radius: 5px;
-        border: 1px solid rgba(255, 255, 255, 0.083);
+        /* border: 1px solid rgba(255, 255, 255, 0.083);
         backdrop-filter: blur(10px);
-        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); */
         margin-top: 50px;
         transition: .5s;
         overflow: hidden;
