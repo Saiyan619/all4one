@@ -16,7 +16,6 @@ NFTs, and manage <br /> tokenized assets with ease.</p>
           <div className='features-lists'>
         <div className="glass-container">
           <img className='features-img-1' src="./blockchain.png" alt="icon" />
-              {/* <img className='features-img-1' src="./bitcoin-btc-logo.png" alt="img" /> */}
                   <div className="glass-content">
       <span>Accessibility</span>
       <p>We believe that powerful technology should be available to everyone. All4One
@@ -27,7 +26,6 @@ leverage AI and blockchain tools seamlessly.</p>
           
               <div className="glass-container">
               <img className='features-img-2' src="./puzzle.png" alt="img" />
-              {/* <img className='features-img-2' src="./thorchain-rune-logo.png" alt="img" /> */}
                   <div className="glass-content">
       <span>Security</span>
       <p>In the digital age, trust is paramount. All4One prioritizes robust security measures,
@@ -47,7 +45,6 @@ management practices.</p>
           </div>
           <div className="glass-container">
               <img className='features-img-4' src="./artificial-intelligence.png" alt="img" />
-              {/* <img className='features-img-4' src=".\shiba-inu-shib-logo.png" alt="img" /> */}
                   <div className="glass-content">
       <span>Innovation</span>
       <p>All4One is constantly evolving and committed to pushing the boundaries of what's
@@ -59,28 +56,7 @@ ever-evolving digital landscape.</p>
               
       </div>
       
-      {/* ------------mission and vision----------------- */}
-
-      {/* <div className='mission-vision-container'>
-        <div>
-        <span>Our Mission</span>
-        <p>Our mission is to dismantle the barriers that currently hinder the widespread adoption of AI
-and blockchain technology. We <br /> aim to empower individuals and businesses alike by providing a
-user-friendly platform that <br /> unlocks the immense potential of these technologies.</p>
-        </div>
-
-        <div>
-        <span>Our Vision</span>
-        <p>We envision a future where AI and blockchain are not exclusive tools for the privileged few, but
-rather accessible and empowering forces for <br /> everyone. All4One strives to be at the forefront
-of this revolution, creating a platform that fosters creativity, innovation, and <br /> a more inclusive
-digital future.</p>
-        </div>
-
-        <div>
-          <img className='macbook' src="./MacBook Air.png" alt="img" />
-        </div>
-        </div> */}
+     
     </div>
   )
 }
