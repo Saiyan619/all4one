@@ -15,7 +15,6 @@ const Header = () => {
          
           <div className='hero-content'>
               <div className='hero-content-left'>
-          {/* <h1>Explore the largest <span>NFT</span> Marketplaces</h1> */}
           <motion.div
             ref={ref}
           initial={{ opacity: 0, y: 20 }}
