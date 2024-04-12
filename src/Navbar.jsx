@@ -41,7 +41,6 @@ const Navbar = () => {
                   <li onClick={scrollToFaq}>FAQ</li>
               </ul>
 
-          {/* <button className='nav-btn'>Buy Now</button> */}
           <button className='gradient-border-button'>Buy Now</button>
         </div>
 
