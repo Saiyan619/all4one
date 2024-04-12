@@ -76,10 +76,6 @@ digital future.</p>
               </div>
           </div>
           
-          <div>
-              <div></div>
-              <div></div>
-          </div>
          
     </div>
   )
